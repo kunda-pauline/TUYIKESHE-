@@ -1,0 +1,562 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color:rgb(3, 94, 33);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top:30px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.head-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.report{
+    background-color: rgb(241, 184, 25);
+    height: 25px;
+    border-radius:5px;
+    padding:5px 5px;
+    margin-top:20px;
+
+}
+.report a{
+    text-decoration: none;
+    font-size:12px;
+    color: #0f0d0d;
+ 
+   
+}
+.waste-main{
+   
+    height:300px;
+   /* width:400px; */
+    /* background-color: #0c92a3; */
+    margin-top:-30px;
+    align-items: center;
+    margin-bottom: 40px;
+  
+
+    
+}
+.welc-text{
+   text-align: center;
+   font-size: 60px;
+   width:800px;
+   margin-left:100px;
+   color: rgb(8, 101, 70);
+   
+
+}
+.welc-paragraph{
+    text-align: center;
+    padding-left:90px;
+    width:800px;
+    margin-left:20px;
+   font-style:normal;
+
+}
+main {
+    padding: 50px;
+    align-content: center;
+}
+
+h2 {
+    color: #2c3e50;
+}
+.welc-button-one{
+    background-color: rgb(220, 184, 25);
+    height: 25px;
+    border-radius:5px;
+    padding:10px 10px;
+    margin-top:20px;
+  
+}
+.welc-button-one a {
+    text-decoration: none;
+    font-size:20px;
+    color: #0f0d0d;
+}
+.welc-buttons{
+    display: flex;
+    margin-left:400px;
+    gap:30px;
+}
+.sustainability-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #1919af; */
+    padding: 40px;
+}
+
+.sustainability-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top:100px;
+    height: auto;
+    background-color: #34495e;
+    border-radius: 8px;
+}
+.text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.text-container p:first-child {
+    font-weight: bold;
+}
+.waste-services-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 40px;
+}
+
+.waste-services-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+}
+
+.services-image-container {
+    flex: 1;
+}
+
+.services-image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.services-text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.services-text-container .subheading {
+    font-size: 14px;
+    color: #f28c28;
+    text-transform: uppercase;
+}
+
+.services-text-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.services-text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(3, 94, 33);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+/* Section Styles */
+#schedule, #education, #report, #events, #contact {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #34495e;
+}
+/* event */
+.events-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.events-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.events-container {
+    display: flex;
+    gap: 20px;
+}
+
+.main-event {
+    flex: 2;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.main-event img {
+    width: 100%;
+    height: auto;
+}
+
+.main-event-content {
+    padding: 15px;
+}
+
+.main-event-date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.main-event-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main-event-title a {
+    text-decoration: none;
+    color: #333;
+}
+.main-event-title a:hover {
+    color: #007BFF;
+}
+
+.main-event-description {
+    font-size: 14px;
+    color: #555;
+}
+
+.side-events {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.side-event {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 10px;
+}
+.side-event img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.side-event-content {
+    padding: 10px;
+}
+
+.side-event-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.side-event-title a {
+    text-decoration: none;
+    color: #333;
+}
+
+.side-event-title a:hover {
+    color: #218838;
+}
+.side-event-meta {
+    font-size: 12px;
+    color: #666;
+}
+
+/* education */
+
+.education-photo{
+    padding:15px;
+    border-radius:20px;
+}
+#education-card{
+    width:20rem;
+    padding:2rem;
+}
+.education-container{
+    display: flex;
+    gap:2rem;
+}
+footer {
+    background-color:rgb(3, 94, 33);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    /* position: fixed; */
+    /* width: 99.9%; */
+    bottom: 0;
+}
+.footer {
+    /* background-color: #222; */
+    color: #fff;
+    /* padding: 40px 20px; */
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-column {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f57c00;
+    margin-left:18px;
+    text-align: left;
+}
+.footer-column p,
+        .footer-column ul,
+        .footer-column li {
+            font-size: 16px;
+            margin: 10px;
+            padding: 0;
+            list-style: none;
+            text-align: left;
+        }
+        .footer-column ul {
+            margin-top: 10px;
+        }
+        .footer-column li {
+            margin-bottom: 10px;
+        }
+        .footer-column li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .footer-column li a:hover {
+            text-decoration: underline;
+        }
+        /* Donation Section */
+        .donation-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .donation-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .donation-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .donation-button {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            height:20px;
+            margin-left: 30rem;
+        }
+        .donation-button:hover {
+            background-color: #45a049;
+        }
+        .donation-title{
+            display: flex;
+            gap:10rem;
+        }
+        .donation-item h3{
+            color: #4CAF50;
+        }
+
+        /* Donation Form */
+        .donation-form {
+            /* display: none; */
+            margin: 1rem;
+            padding: 1rem;
+            margin-left:7rem;
+            background: #f4f4f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 80%;
+
+        }
+        .donation-form input, .donation-form textarea, .donation-form button {
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .donation-form button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        .donation-form button:hover {
+            background-color: #45a049;
+        }
+        /* Static Waste Sorting Guide */
+        .waste-guide {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+        .waste-category {
+            background: #e8f5e9;
+            border: 1px solid #c8e6c9;
+            border-radius: 8px;
+            text-align: center;
+            padding: 1rem;
+        }
+        .waste-category:hover {
+            background: #c8e6c9;
+        }
+/* Events Page */
+.events {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.event {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #fff;
+}
+.event h3 {
+    margin: 0;
+    color: #4CAF50;
+}
+        /* Environmental Impact Stats */
+        .impact-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .stat {
+            background: #c4efcc;
+            border: 1px solid #58be7c;
+            border-radius: 8px;
+            text-align: center;
+            padding: 1rem;
+        }
+        .feature{
+            margin-top:4rem;
+        }

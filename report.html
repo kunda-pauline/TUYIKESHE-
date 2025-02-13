@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuyikeshe Easy App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="head-logo">
+      
+        <h1>TE APP </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="schedule.html">Collection Schedule</a></li>
+                <li><a href="education.html">Waste Education</a></li>
+                <li><a href="events.html">Community Events</a></li>
+                <!-- <li><a href="contact.html">Contact Us</a></li> -->
+            </ul>
+        </nav>
+        <div class="report">
+            <a href="report.html">Report Issues</a>
+        </div>
+    </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        
+        <section id="report">
+            <h2>Report Issues</h2>
+            <form action="submit_report.php" method="POST">
+                <label for="Names">Names</label>
+                <input type="text" id="location" name="location" required><br>
+
+                <label for="E-mail">E-mail</label>
+                <input type="text" id="location" name="location" required><br>
+                <label for="phone number">phone number</label>
+                <input type="text" id="location" name="location" required><br>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required><br>
+
+                <label for="issue">Issue:</label>
+                <textarea id="issue" name="issue" required></textarea><br>
+
+                <button type="submit">Submit Report</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+                <!-- Contact Info -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p>If you have any questions, feel free to reach out to us.</p>
+                    <p>Email: Tuyikeshe@gmail.com</p>
+                    <p>Phone: +250788884372</p>
+                </div>
+        
+                <!-- Company Links -->
+                <div class="footer-column">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="schedule.html">Collection Schedule</a></li>
+                        <li><a href="education.html">Waste Education</a></li>
+                        <li><a href="events.html">Community Events</a></li>
+                        <li><a href="report.html">Report</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Residential Waste collection</li>
+                        <li>Commercial Waste collection</li>
+                        <li>waste management education</li>
+                        <li>waste recycling services</li>
+                    </ul>
+                </div>
+         </div>
+       
+    </footer>
+
+</body>
+</html>

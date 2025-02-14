@@ -11,6 +11,11 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000; 
 }
 
 header nav ul {
@@ -30,12 +35,17 @@ header nav ul li a {
     font-weight: bold;
 }
 
+
 header nav ul li a:hover {
     text-decoration: underline;
+    color: rgb(241, 184, 25);;
 }
 .head-logo{
     display: flex;
     justify-content: space-between;
+}
+.head-logo h1{
+    margin-left:2rem;
 }
 .report{
     background-color: rgb(241, 184, 25);
@@ -43,40 +53,37 @@ header nav ul li a:hover {
     border-radius:5px;
     padding:5px 5px;
     margin-top:20px;
-
+    margin-right:2rem;
 }
+.report:hover{
+    background-color: #218838;
+}
+
 .report a{
     text-decoration: none;
     font-size:12px;
     color: #0f0d0d;
- 
-   
 }
-.waste-main{
-   
+.waste-main{ 
     height:300px;
    /* width:400px; */
     /* background-color: #0c92a3; */
-    margin-top:-30px;
+    margin-top:100px;
     align-items: center;
     margin-bottom: 40px;
-  
 
-    
 }
 .welc-text{
    text-align: center;
    font-size: 60px;
-   width:800px;
+   width:900px;
    margin-left:100px;
    color: rgb(8, 101, 70);
-   
-
 }
 .welc-paragraph{
     text-align: center;
     padding-left:90px;
-    width:800px;
+    width:900px;
     margin-left:20px;
    font-style:normal;
 
@@ -99,7 +106,7 @@ h2 {
 }
 .welc-button-one a {
     text-decoration: none;
-    font-size:20px;
+    font-size:15px;
     color: #0f0d0d;
 }
 .welc-buttons{
@@ -219,6 +226,7 @@ h2 {
 #schedule, #education, #report, #events, #contact {
     background-color: #ffffff;
     margin: 20px 0;
+    margin-top:100px;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -458,6 +466,9 @@ footer {
             padding: 1rem;
             text-align: center;
         }
+        .donation-item:hover{
+            transform: translateY(-10px);
+        }
         .donation-item img {
             max-width: 100%;
             border-radius: 8px;
@@ -560,3 +571,4 @@ footer {
         .feature{
             margin-top:4rem;
         }
+        

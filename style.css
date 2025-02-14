@@ -508,6 +508,7 @@ footer {
             background: #f4f4f9;
             border: 1px solid #ddd;
             border-radius: 8px;
+        
             width: 80%;
 
         }
@@ -572,6 +573,6 @@ footer {
             padding: 1rem;
         }
         .feature{
-            margin-top:4rem;
+            margin-top:10rem;
         }
         
